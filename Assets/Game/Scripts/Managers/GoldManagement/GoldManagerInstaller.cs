@@ -7,7 +7,7 @@ namespace Game.Scripts.Managers.GoldManagement
     {
         public override void InstallBindings()
         {
-            Container.Bind<GoldManager>().FromInstance(new GoldManagerUfo(0)).AsSingle().NonLazy();
+            // Container.Bind<GoldManager>().FromInstance(new GoldManagerUfo(0)).AsSingle().NonLazy();
         }
     }
 }

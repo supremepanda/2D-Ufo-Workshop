@@ -7,7 +7,7 @@ namespace Game.Scripts.Managers.LevelCompletionManagement
     {
         public override void InstallBindings()
         {
-            Container.Bind<LevelCompletionManager>().FromInstance(new LevelCompletionManagerUfo()).AsSingle().NonLazy();
+            // Container.Bind<LevelCompletionManager>().FromInstance(new LevelCompletionManagerUfo()).AsSingle().NonLazy();
         }
     }
 }
